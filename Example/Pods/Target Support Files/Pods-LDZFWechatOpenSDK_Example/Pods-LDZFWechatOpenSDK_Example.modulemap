@@ -1,0 +1,6 @@
+framework module Pods_LDZFWechatOpenSDK_Example {
+  umbrella header "Pods-LDZFWechatOpenSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

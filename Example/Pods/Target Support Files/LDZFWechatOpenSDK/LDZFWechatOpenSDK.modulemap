@@ -1,0 +1,6 @@
+framework module LDZFWechatOpenSDK {
+  umbrella header "LDZFWechatOpenSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

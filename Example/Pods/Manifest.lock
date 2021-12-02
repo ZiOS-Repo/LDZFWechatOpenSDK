@@ -1,0 +1,16 @@
+PODS:
+  - LDZFWechatOpenSDK (0.1.0)
+
+DEPENDENCIES:
+  - LDZFWechatOpenSDK (from `../`)
+
+EXTERNAL SOURCES:
+  LDZFWechatOpenSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDZFWechatOpenSDK: ab13b29b83e40cb46c141c9eb51dfa2a79e585e5
+
+PODFILE CHECKSUM: 9254e9be8963bc47f88db6c872d71529408b25ca
+
+COCOAPODS: 1.11.2
