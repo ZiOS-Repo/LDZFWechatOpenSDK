@@ -1,6 +1,6 @@
 {
   "name": "LDZFWechatOpenSDK",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of LDZFWechatOpenSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/ZiOS-Repo/LDZFWechatOpenSDK",
@@ -13,11 +13,27 @@
   },
   "source": {
     "git": "https://github.com/ZiOS-Repo/LDZFWechatOpenSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LDZFWechatOpenSDK/Classes/**/*",
-  "vendored_libraries": "LDZFWechatOpenSDK/Classes/OpenSDK1.8.7.1/*.a"
+  "public_header_files": "LDZFWechatOpenSDK/Classes/OpenSDK1.8.7.1/*.h",
+  "source_files": "LDZFWechatOpenSDK/Classes/OpenSDK1.8.7.1/*.{h,m,mm}",
+  "vendored_libraries": "LDZFWechatOpenSDK/Classes/OpenSDK1.8.7.1/*.a",
+  "frameworks": [
+    "CFNetwork",
+    "Security",
+    "CoreTelephony",
+    "SystemConfiguration",
+    "UIKit",
+    "CoreGraphics",
+    "Foundation",
+    "WebKit"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3.0",
+    "c++"
+  ]
 }

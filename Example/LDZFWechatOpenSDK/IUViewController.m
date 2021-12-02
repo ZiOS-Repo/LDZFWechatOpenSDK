@@ -7,7 +7,7 @@
 //
 
 #import "IUViewController.h"
-#import <LDZFWechatOpenSDK/LDZFWechatOpenSDK.h>
+#import <LDZFWechatOpenSDK/WXApi.h>
 @interface IUViewController ()
 
 @end

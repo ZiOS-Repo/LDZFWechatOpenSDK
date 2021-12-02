@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LDZFWechatOpenSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of LDZFWechatOpenSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,18 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LDZFWechatOpenSDK/Classes/**/*'
+#  s.source_files = 'LDZFWechatOpenSDK/Classes/**/*'
+  s.public_header_files = "LDZFWechatOpenSDK/Classes/OpenSDK1.8.7.1/*.h"
+  #备注：一定要加上具体的后缀 如：*.{h,m,mm}   不要只写：*  否则会编译失败
+  s.source_files = "LDZFWechatOpenSDK/Classes/OpenSDK1.8.7.1/*.{h,m,mm}"
   
   #如果在制作pod时导入了.a文件，如下
   s.vendored_libraries = 'LDZFWechatOpenSDK/Classes/OpenSDK1.8.7.1/*.a'
+  s.frameworks = "CFNetwork", "Security", "CoreTelephony", "SystemConfiguration", "UIKit", "CoreGraphics", "Foundation", "WebKit"
+  s.libraries = "z", "sqlite3.0", "c++"
   
+#  s.pod_target_xcconfig = { "OTHER_LDFLAGS" => "-lObjC" }
+#  s.pod_target_xcconfig = { "VALID_ARCHS" => "x86_64 armv7 arm64" }
   #如果加入了framework文件，就在podspec里写上下面这句话
   #s.vendored_frameworks = 'LDZFWechatOpenSDK/Classes/*.framework'
   
@@ -47,3 +54,4 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 end
 # pod trunk push LDZFWechatOpenSDK.podspec --allow-warnings
+

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A60D8F6DAC4DDEFD0CE7B9A /* libPods-LDZFWechatOpenSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA066BA37DF1D91BA54F0FCE /* libPods-LDZFWechatOpenSDK_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9CBD5394438812CC7199B6E0 /* Pods_LDZFWechatOpenSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5D66CB1D3E4D3AAA4AB0DB /* Pods_LDZFWechatOpenSDK_Example.framework */; };
-		CAF8CF0ECB4351E936BF858B /* Pods_LDZFWechatOpenSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F18C4AA22A2E17EA5A8DCDD /* Pods_LDZFWechatOpenSDK_Tests.framework */; };
+		972BD655689238A85A45920E /* libPods-LDZFWechatOpenSDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 282AE0D1E1A62F12CB34B6F7 /* libPods-LDZFWechatOpenSDK_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		01EE3A50FB8EB1D25F7299C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		282AE0D1E1A62F12CB34B6F7 /* libPods-LDZFWechatOpenSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDZFWechatOpenSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D008CF98D41DE842F0A1ECB /* Pods-LDZFWechatOpenSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDZFWechatOpenSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-LDZFWechatOpenSDK_Example/Pods-LDZFWechatOpenSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4F0A37336C148C92CA38D173 /* LDZFWechatOpenSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LDZFWechatOpenSDK.podspec; path = ../LDZFWechatOpenSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		59E19F403E351EFDBEEF4A38 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -60,12 +61,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6F18C4AA22A2E17EA5A8DCDD /* Pods_LDZFWechatOpenSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDZFWechatOpenSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA066BA37DF1D91BA54F0FCE /* libPods-LDZFWechatOpenSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LDZFWechatOpenSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6060FBB33356C23FEB6B875 /* Pods-LDZFWechatOpenSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDZFWechatOpenSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-LDZFWechatOpenSDK_Tests/Pods-LDZFWechatOpenSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C218B1961CB8BA4ACB9D7049 /* Pods-LDZFWechatOpenSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDZFWechatOpenSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LDZFWechatOpenSDK_Tests/Pods-LDZFWechatOpenSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CE5D66CB1D3E4D3AAA4AB0DB /* Pods_LDZFWechatOpenSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDZFWechatOpenSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC5EA9DD7578BD1CA129945 /* Pods-LDZFWechatOpenSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDZFWechatOpenSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-LDZFWechatOpenSDK_Example/Pods-LDZFWechatOpenSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				9CBD5394438812CC7199B6E0 /* Pods_LDZFWechatOpenSDK_Example.framework in Frameworks */,
+				1A60D8F6DAC4DDEFD0CE7B9A /* libPods-LDZFWechatOpenSDK_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				CAF8CF0ECB4351E936BF858B /* Pods_LDZFWechatOpenSDK_Tests.framework in Frameworks */,
+				972BD655689238A85A45920E /* libPods-LDZFWechatOpenSDK_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				CE5D66CB1D3E4D3AAA4AB0DB /* Pods_LDZFWechatOpenSDK_Example.framework */,
-				6F18C4AA22A2E17EA5A8DCDD /* Pods_LDZFWechatOpenSDK_Tests.framework */,
+				AA066BA37DF1D91BA54F0FCE /* libPods-LDZFWechatOpenSDK_Example.a */,
+				282AE0D1E1A62F12CB34B6F7 /* libPods-LDZFWechatOpenSDK_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				7FCB5EFD0598E0EF016A5721 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,24 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7FCB5EFD0598E0EF016A5721 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LDZFWechatOpenSDK_Example/Pods-LDZFWechatOpenSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LDZFWechatOpenSDK/LDZFWechatOpenSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LDZFWechatOpenSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LDZFWechatOpenSDK_Example/Pods-LDZFWechatOpenSDK_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8C88F4D1C3333C22AA6DBC04 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
