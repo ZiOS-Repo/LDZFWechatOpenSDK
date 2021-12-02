@@ -41,28 +41,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A6F626C4ED19E15E684FA3E783467FA /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = LDZFWechatOpenSDK/Classes/OpenSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		2293B8B6FC5639264C57656A431A3A6B /* LDZFWechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFWechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		27A7AEDA6312CA1059882BA813B5C109 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		28FA47D034CC165A52E10D123367C80C /* Pods-LDZFWechatOpenSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFWechatOpenSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		37914F3CB0CBCFA725906D8B067CEDCD /* LDZFWechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFWechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		42C6C7A8417AF891018CAB0490038192 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = LDZFWechatOpenSDK/Classes/OpenSDK/libWeChatSDK.a; sourceTree = "<group>"; };
 		48CC1820CE293C0C78C2E09231271411 /* Pods-LDZFWechatOpenSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFWechatOpenSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4F63109A9C8B47573CB0C0C4CA17DF75 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = LDZFWechatOpenSDK/Classes/OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
-		57196B07DCB12F3D683E770D5EF7232A /* LDZFWechatOpenSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LDZFWechatOpenSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5BC821A7909D9F38A6B03C96321CAA7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		65EBD8B8F866EE98EC04752F6705B633 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		68E86A95FC6480BFC999C469DF129E4F /* LDZFWechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFWechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		5DDC8F4CFA90E47800156DB795810AAB /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = LDZFWechatOpenSDK/Classes/OpenSDK/WXApiObject.h; sourceTree = "<group>"; };
 		7E07B268CF46DA69947E18EC36029395 /* Pods-LDZFWechatOpenSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDZFWechatOpenSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		83840FD2119C7A91870C46AABAD9FAA3 /* Pods-LDZFWechatOpenSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFWechatOpenSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A3988D895D54C430ADA0343FBE70810 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = LDZFWechatOpenSDK/Classes/OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
-		8A94C2B5BED3DCBA29E9580A22292E40 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = LDZFWechatOpenSDK/Classes/OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
 		9316A1E174BD5C2431402AB2EC628744 /* Pods-LDZFWechatOpenSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFWechatOpenSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		96FC7D0BBD1AADC7A51F963358FD0FD2 /* Pods-LDZFWechatOpenSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDZFWechatOpenSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3395A0604C9D984394FFA2E3DBF2FB3 /* Pods-LDZFWechatOpenSDK_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-LDZFWechatOpenSDK_Example"; path = "libPods-LDZFWechatOpenSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3ED9338AEAADB2B9FF83C740C4AF46A /* Pods-LDZFWechatOpenSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFWechatOpenSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB4E900491CA169DAA22683C99DFC499 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AD530520684F63B4A48B93C2E3CE47A1 /* Pods-LDZFWechatOpenSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFWechatOpenSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0DBAB1AA72CAF2001E66A03E58E1CBB /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = LDZFWechatOpenSDK/Classes/OpenSDK/WXApi.h; sourceTree = "<group>"; };
 		B94BC1497DEBA9BBF2D9BCC605718323 /* Pods-LDZFWechatOpenSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFWechatOpenSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B94C965427975926B6E36B20F081D78D /* Pods-LDZFWechatOpenSDK_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-LDZFWechatOpenSDK_Tests"; path = "libPods-LDZFWechatOpenSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5ABCDF062CA5407F7BBA7E8B8105E14 /* Pods-LDZFWechatOpenSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFWechatOpenSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F00C4AC881FEFC166A2628ACEDBFC13C /* LDZFWechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFWechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
-		F2F2558FEDB258B1C5216DA534E7045D /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = LDZFWechatOpenSDK/Classes/OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		D87DA6F7B4D7CC780C6DD2957FB5ACCD /* LDZFWechatOpenSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LDZFWechatOpenSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,41 +95,43 @@
 		0D1AC70092944FDDF9F4E31C6056D827 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7DE013F821ADE20F5F98AAB339C9CE81 /* LDZFWechatOpenSDK */,
+				23C2F0E0C8C32110DCA8DC2815004277 /* LDZFWechatOpenSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		46830DF27EB719D9A3033B256297CE99 /* Pod */ = {
+		23C2F0E0C8C32110DCA8DC2815004277 /* LDZFWechatOpenSDK */ = {
 			isa = PBXGroup;
 			children = (
-				57196B07DCB12F3D683E770D5EF7232A /* LDZFWechatOpenSDK.podspec */,
-				5BC821A7909D9F38A6B03C96321CAA7A /* LICENSE */,
-				65EBD8B8F866EE98EC04752F6705B633 /* README.md */,
+				1A6F626C4ED19E15E684FA3E783467FA /* WechatAuthSDK.h */,
+				B0DBAB1AA72CAF2001E66A03E58E1CBB /* WXApi.h */,
+				5DDC8F4CFA90E47800156DB795810AAB /* WXApiObject.h */,
+				868F2F6399C0520C522799821AE227E0 /* Frameworks */,
+				479E7F55753D9BC7E462E842F55BED55 /* Pod */,
+				7150406D1F2C9D11C60664D3138820A0 /* Support Files */,
+			);
+			name = LDZFWechatOpenSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		479E7F55753D9BC7E462E842F55BED55 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D87DA6F7B4D7CC780C6DD2957FB5ACCD /* LDZFWechatOpenSDK.podspec */,
+				AB4E900491CA169DAA22683C99DFC499 /* LICENSE */,
+				27A7AEDA6312CA1059882BA813B5C109 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		666970895BEBFB2C8A2AD535EB68144A /* Frameworks */ = {
+		7150406D1F2C9D11C60664D3138820A0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F2F2558FEDB258B1C5216DA534E7045D /* libWeChatSDK.a */,
+				2293B8B6FC5639264C57656A431A3A6B /* LDZFWechatOpenSDK.debug.xcconfig */,
+				37914F3CB0CBCFA725906D8B067CEDCD /* LDZFWechatOpenSDK.release.xcconfig */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7DE013F821ADE20F5F98AAB339C9CE81 /* LDZFWechatOpenSDK */ = {
-			isa = PBXGroup;
-			children = (
-				8A94C2B5BED3DCBA29E9580A22292E40 /* WechatAuthSDK.h */,
-				4F63109A9C8B47573CB0C0C4CA17DF75 /* WXApi.h */,
-				8A3988D895D54C430ADA0343FBE70810 /* WXApiObject.h */,
-				666970895BEBFB2C8A2AD535EB68144A /* Frameworks */,
-				46830DF27EB719D9A3033B256297CE99 /* Pod */,
-				B8C46617D1C482B7088CFD1EB173D9ED /* Support Files */,
-			);
-			name = LDZFWechatOpenSDK;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LDZFWechatOpenSDK";
 			sourceTree = "<group>";
 		};
 		812FA28C7B766256A9819D9D34CCBE89 /* Pods-LDZFWechatOpenSDK_Tests */ = {
@@ -143,6 +145,14 @@
 			);
 			name = "Pods-LDZFWechatOpenSDK_Tests";
 			path = "Target Support Files/Pods-LDZFWechatOpenSDK_Tests";
+			sourceTree = "<group>";
+		};
+		868F2F6399C0520C522799821AE227E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42C6C7A8417AF891018CAB0490038192 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8EB3944B993A9B41FC20AE3EFFD23A29 /* Pods-LDZFWechatOpenSDK_Example */ = {
@@ -165,16 +175,6 @@
 				812FA28C7B766256A9819D9D34CCBE89 /* Pods-LDZFWechatOpenSDK_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B8C46617D1C482B7088CFD1EB173D9ED /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F00C4AC881FEFC166A2628ACEDBFC13C /* LDZFWechatOpenSDK.debug.xcconfig */,
-				68E86A95FC6480BFC999C469DF129E4F /* LDZFWechatOpenSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LDZFWechatOpenSDK";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -403,7 +403,7 @@
 		};
 		4C1B2E8465F55BD1C2CECAC9F301C1E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68E86A95FC6480BFC999C469DF129E4F /* LDZFWechatOpenSDK.release.xcconfig */;
+			baseConfigurationReference = 37914F3CB0CBCFA725906D8B067CEDCD /* LDZFWechatOpenSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,7 +458,7 @@
 		};
 		8D247F48A475C687BDB7D0FCBB09C5C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F00C4AC881FEFC166A2628ACEDBFC13C /* LDZFWechatOpenSDK.debug.xcconfig */;
+			baseConfigurationReference = 2293B8B6FC5639264C57656A431A3A6B /* LDZFWechatOpenSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
