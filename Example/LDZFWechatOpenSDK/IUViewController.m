@@ -20,7 +20,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     if (![WXApi isWXAppInstalled]) { //未安装提示
     } else { //已安装去登录
-        
+
     }
     
     

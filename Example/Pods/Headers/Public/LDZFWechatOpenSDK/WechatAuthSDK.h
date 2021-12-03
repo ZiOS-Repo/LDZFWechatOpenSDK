@@ -1,1 +1,1 @@
-../../../../../LDZFWechatOpenSDK/Classes/OpenSDK/WechatAuthSDK.h
+../../../../../LDZFWechatOpenSDK/OpenSDK1.8.7.1/WechatAuthSDK.h

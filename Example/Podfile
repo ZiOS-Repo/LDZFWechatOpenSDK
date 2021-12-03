@@ -1,10 +1,10 @@
-#use_frameworks!
+use_frameworks!
 
 platform :ios, '9.0'
 
 target 'LDZFWechatOpenSDK_Example' do
   pod 'LDZFWechatOpenSDK', :path => '../'
-
+#  pod 'WechatOpenSDK', :git=>'https://github.com/vicentwyh/WechatOpenSDK.git'
   target 'LDZFWechatOpenSDK_Tests' do
     inherit! :search_paths
 

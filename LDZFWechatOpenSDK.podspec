@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LDZFWechatOpenSDK'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of LDZFWechatOpenSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -29,35 +29,23 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
-#  s.source_files = 'LDZFWechatOpenSDK/Classes/**/*'
-  s.public_header_files = "LDZFWechatOpenSDK/Classes/OpenSDK/*.h"
-  #备注：一定要加上具体的后缀 如：*.{h,m,mm}   不要只写：*  否则会编译失败
-  s.source_files = "LDZFWechatOpenSDK/Classes/OpenSDK/*.{h,m,mm}"
   
-  #如果在制作pod时导入了.a文件，如下
-  s.vendored_libraries = 'LDZFWechatOpenSDK/Classes/OpenSDK/*.a'
+  #关于.h,如果你不想暴露的话public_header_files里加完就不用管了，
+  #如果想要暴露给别人调用，只能source_files里再加一遍.h。
+  s.public_header_files = "LDZFWechatOpenSDK/OpenSDK1.8.7.1/*.h"
+  #备注：一定要加上具体的后缀 如：*.{h,m,mm}   不要只写：*  否则会编译失败
+  s.source_files = "LDZFWechatOpenSDK/OpenSDK1.8.7.1/*.{h,m,mm}"
+  
+  s.vendored_libraries = 'LDZFWechatOpenSDK/OpenSDK1.8.7.1/*.a'
   s.frameworks = "CFNetwork", "Security", "CoreTelephony", "SystemConfiguration", "UIKit", "CoreGraphics", "Foundation", "WebKit"
   s.libraries = "z", "sqlite3.0", "c++"
   
-#  s.pod_target_xcconfig = { "OTHER_LDFLAGS" => "-lObjC" }
-  # 不知道为什么加上i386就无法通过 pod lib lint???
+  s.pod_target_xcconfig = { "OTHER_LDFLAGS" => "-lObjC" }
   s.pod_target_xcconfig = { "VALID_ARCHS" => "x86_64 armv7 arm64" }
   
-  
-  #如果加入了framework文件，就在podspec里写上下面这句话
-  #s.vendored_frameworks = 'LDZFWechatOpenSDK/Classes/*.framework'
-  
-  # s.resource_bundles = {
-  #   'LDZFWechatOpenSDK' => ['LDZFWechatOpenSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
-# pod lib lint --use-libraries
-# pod lib lint --verbose --use-libraries
+# pod lib lint
+# pod lib lint --verbose --allow-warnings
 # pod trunk push LDZFWechatOpenSDK.podspec --allow-warnings
 
 

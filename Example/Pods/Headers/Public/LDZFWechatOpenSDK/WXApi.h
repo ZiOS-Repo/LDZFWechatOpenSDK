@@ -1,1 +1,1 @@
-../../../../../LDZFWechatOpenSDK/Classes/OpenSDK/WXApi.h
+../../../../../LDZFWechatOpenSDK/OpenSDK1.8.7.1/WXApi.h
